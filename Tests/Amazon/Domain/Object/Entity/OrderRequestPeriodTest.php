@@ -1,8 +1,8 @@
 <?php
 
-use App\Models\Amazon\Domain\Object\Entity\OrderRequestPeriod;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
+use src\Amazon\Domain\Object\Entity\OrderRequestPeriod;
 
 class OrderRequestPeriodTest extends TestCase
 {

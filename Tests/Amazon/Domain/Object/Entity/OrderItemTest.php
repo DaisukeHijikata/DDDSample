@@ -1,9 +1,9 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
 use AmazonPHP\SellingPartner\Model\Orders\Order;
 use AmazonPHP\SellingPartner\Model\Orders\OrderItem as AmazonPHPOrderItem;
-use App\Models\Amazon\Domain\Object\Entity\OrderItem;
+use PHPUnit\Framework\TestCase;
+use src\Amazon\Domain\Object\Entity\OrderItem;
 
 class OrderItemTest extends TestCase
 {

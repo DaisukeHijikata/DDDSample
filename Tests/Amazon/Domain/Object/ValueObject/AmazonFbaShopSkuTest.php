@@ -2,10 +2,9 @@
 
 namespace App\Tests\Amazon\Domain\Object\ValueObject;
 
-use App\Models\Amazon\Domain\Object\ValueObject\AmazonFbaOrder;
-use App\Models\Amazon\Domain\Object\ValueObject\AmazonFbaShopSku;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
+use src\Amazon\Domain\Object\ValueObject\AmazonFbaShopSku;
 
 class AmazonFbaShopSkuTest extends TestCase
 {

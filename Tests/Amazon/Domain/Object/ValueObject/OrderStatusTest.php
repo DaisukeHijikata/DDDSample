@@ -1,6 +1,7 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
-use App\Models\Amazon\Domain\Object\ValueObject\OrderStatus;
+use src\Amazon\Domain\Object\ValueObject\OrderStatus;
 
 final class OrderStatusTest extends TestCase
 {

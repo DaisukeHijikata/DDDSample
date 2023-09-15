@@ -1,7 +1,7 @@
 <?php
 
-use App\Models\Amazon\Domain\Object\ValueObject\AmazonOrderId;
 use PHPUnit\Framework\TestCase;
+use src\Amazon\Domain\Object\ValueObject\AmazonOrderId;
 
 class AmazonOrderIdTest extends TestCase
 {

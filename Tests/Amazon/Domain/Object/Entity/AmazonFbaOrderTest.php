@@ -2,12 +2,12 @@
 
 namespace App\Tests\Amazon\Domain\Object\Entity;
 
-use App\Models\Amazon\Domain\Object\Entity\AmazonFbaOrder;
-use App\Models\Amazon\Domain\Object\ValueObject\AmazonFbaOrder as AmazonFbaOrderValueObject;
-use App\Models\Entity\PalSku;
-use PHPUnit\Framework\TestCase;
-use Mockery;
 use Exception;
+use Mockery;
+use PHPUnit\Framework\TestCase;
+use src\Amazon\Domain\Object\Entity\AmazonFbaOrder;
+use src\Amazon\Domain\Object\ValueObject\AmazonFbaOrder as AmazonFbaOrderValueObject;
+use src\Entity\PalSku;
 
 class AmazonFbaOrderTest extends TestCase
 {
